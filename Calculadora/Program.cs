@@ -11,7 +11,7 @@ namespace Calculadora
         public enum Opcion { Suma=1,Resta,Multiplicacion,Division};
         static void Main(string[] args)
         {
-            Calculadora cal = new Calculadora();
+            Calculo cal = new Calculo();
             Console.WriteLine("Bienvenido a la calculadora");
             //Opcion opciones = new Opcion();
             int opcion = 1;
@@ -19,7 +19,7 @@ namespace Calculadora
             do
             {
                 Console.WriteLine("Escoja la oprecion a relaizar:");
-                Console.WriteLine("1.Suma." + "\n" + "2.Resta" + "1.Suma." + "\n" + "3.Multiplicacion." + "\n" + "4.Division"+"\n"+"0.Salir");
+                Console.WriteLine("1.Suma." + "\n" + "2.Resta" +"\n" + "3.Multiplicacion." + "\n" + "4.Division"+"\n"+"0.Salir");
                 opcion = Convert.ToInt32(Console.ReadLine());
                 if (opcion == 0) break;
                 Console.WriteLine("Introduzca el primer numero: ");

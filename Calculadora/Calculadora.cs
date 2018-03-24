@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora
 {
-    class Calculadora : ICalculadora
+    public class Calculo : ICalculadora
     {
         public int Division(int num1, int num2)
         {
